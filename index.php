@@ -41,7 +41,7 @@ function processFile($inputPath, $outputPath) {
             // run a standalone PHP process to handle the line/event
             $process = new Process(['/usr/bin/php', './processor.php', $event->wait]);
 
-            // start() triggers an asyc process
+            // start() triggers an async process
             $process->start(function ($type, $buffer) use ($outputPath, $line) {
                 if ($buffer == 'finished') {
                     // process for this line has finished, write it to the
