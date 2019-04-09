@@ -1,0 +1,12 @@
+{
+    "name": "yuriy/wikimedia",
+    "authors": [
+        {
+            "name": "Yuriy Babenko",
+            "email": "yuriyb@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/process": "^4.2"
+    }
+}
