@@ -84,10 +84,6 @@ function finishTasks(&$tasks) {
     $tasks = [];
 }
 
-// The total sum of 'wait' values (across 620 records) in the provided
-// input file is just over 17 minutes of cumulative runtime. Script
-// execution on my machine takes roughly 63 seconds.
-
 logTime();
 processFile('./sample_rc.json', './output.json');
 logTime();
