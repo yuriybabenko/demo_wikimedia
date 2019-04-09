@@ -6,7 +6,8 @@ The total sum of `wait` values (across 620 records) in the provided input file i
 
 #### Instructions
 
-Run the index.php script. 
+1. Ensure your server's script execution time is set to a reasonably-high value.
+2. Run the index.php script in your browser.
 
 Script was only tested in-browser, on a PHP 7 environment within Laravel Valet.
 

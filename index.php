@@ -1,7 +1,4 @@
 <?php
-
-// IMPORTANT: Ensure your script execution limit is set to a high value.
-
 require ('vendor/autoload.php');
 
 use Symfony\Component\Process\Process;
