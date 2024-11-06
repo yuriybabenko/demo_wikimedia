@@ -7,6 +7,6 @@
         }
     ],
     "require": {
-        "symfony/process": "^4.2"
+        "symfony/process": "^5.4"
     }
 }
